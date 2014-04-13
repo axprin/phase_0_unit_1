@@ -1,6 +1,7 @@
 # U1.W2: Intermediate HTML and CSS Reflection
 
-* What do you think about web standards? Are they good or bad?
+* What do you think about web standards? Are they good or bad
+
 * Does the standard structure make sense to you? Why or why not?
 * Do you like the new HTML5 elements, such as `<header>`, `footer`, and `nav`? Why or why not?
 * Why is reset.css necessary? 
