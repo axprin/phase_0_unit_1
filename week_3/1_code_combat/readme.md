@@ -29,9 +29,9 @@ Translate your pseudocode into code and see if it achieves the goals. If it does
 
 ###3. Answer the following:
 When you are finished with all of the levels, answer the following questions. You may want to look at some resources on JavaScript before answering.
-  - What is `this` referring to? Think programming-wise rather than in the terms of the game. 
-  - What does the `()` do in JavaScript?
-  - What is the point of the semicolons?
+  - What is `this` referring to? Think programming-wise rather than in the terms of the game. <br><br>Every function has it's own scope, and since everything in JS is an object, even a function can store some values into itself using "this"<br><br>
+  - What does the `()` do in JavaScript?<br><br>Parentheses house arguements.<br><br>
+  - What is the point of the semicolons?<br><br>Semicolons appear to end everything/everyline. Must just be syntactical, perhaps I'll understand it better a little later on?
 
 ## Reflect
 In the reflection section of your 'my_solution.js` file, reflect on your learning. Use the [reflection guidelines](../reflection_guidelines.md).. ***NOTE: Reflections are mandatory!***
