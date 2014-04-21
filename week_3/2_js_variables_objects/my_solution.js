@@ -1,4 +1,4 @@
-// I paired [by myself, with:] on this challenge.
+// I paired with: Celeen Rusk on this challenge.
 
 
 
@@ -35,14 +35,14 @@ var members = ["John", 28, 1, "Mary"]
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
 
-
+// After looking at my code again, I don't think it can be refactored at all. As I was going through the tests, I think I inadvertantly refactored on the go, which is probably not a good method, but I did it. I will do my best to stray away from this practice in the future.
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
+// I thought this exercise was really fun and engaging. See the power of JavaScript and what it can do (even at this very beginning level) is awesome. I'm really looking forward to learning more of this powerful language. As I stated above, I think I might have employed a bad practice, by refactoring my code as I was going through making sure my code would pass each test. In the future, I feel like I should avoid this and just write code in one step and refactor in another. I'm still not sure how I feel the idea of pseudocode really helps, but I'm sure it's just the beginning and when our prompts/assignments get harder, it will be much clearer why this step is needed. 
 // 
 // 
 // 

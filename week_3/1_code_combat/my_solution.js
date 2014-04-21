@@ -116,4 +116,4 @@ this.attackXY(45, 52);
  
  
 // Reflection:
-// I found this first exercise pretty elementary and didn't really require too much though or outside research. This game, although clevar, donsn't seem to really teach you much actual coding (at least at the beginner level). Since this is the first week of JS, I'm really excited to buckle down and learn a lot. 
+// I found this first exercise pretty elementary and didn't really require too much though or outside research. This game, although clevar, donsn't seem to really teach you much actual coding (at least at the beginner level). Since this is the first week of JS, I'm really excited to buckle down and learn a lot more. 

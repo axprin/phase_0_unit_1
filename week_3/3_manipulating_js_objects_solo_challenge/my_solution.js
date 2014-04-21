@@ -13,50 +13,78 @@ var terah = {
   eyeColor: "brown"
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
-1. Define a variable adam and use object literal notation to assign this variable 
-   the value of a JavaScript Object object with no properties.
+1. Define a variable adam and use object literal notation to assign this variable the value of a JavaScript Object object with no properties.
+// pseudocode
+// call the variable adam
+// set variable adam to have no properties
 
 2. Give adam a name property with the value "Adam".
+// pseudocode
+// set variable adam to have a name property of "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
+// pseudocode
+// set variable terah to have a spouse property of adam
 
 4. Change the value of the terah weight property to 125.
+// pseudocode
+// set variable terah to have a weight property of 125
 
 5. Remove the eyeColor property from terah.
+// pseudocode
+// remove proerty of eyeColor from object terah
 
 6. Add a spouse property to adam and assign it the value of terah.
+// pseudocode
+// set variable adam to have a spouse property of terah 
 
-7. Add a children property to terah and and use object literal notation to assign 
-   this variable the value of a JavaScript Object object with no properties
+7. Add a children property to terah and and use object literal notation to assign this variable the value of a JavaScript Object object with no properties
+// pseudocode
+// add children property to terah and set it to nothing
 
-8. Add a carson property to the value of the terah children property and assign it 
-  the value of an object with the property name with a value of "Carson".
+8. Add a carson property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carson".
+// pseudocode
+// add value of "Carson" to children property of object terah
 
-9. Add a carter property to the value of the terah children property and assign it 
-   the value of an object with the property name with a value of "Carter".
+9. Add a carter property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carter".
+// pseudocode
+// add value of "Carter" to children property of object terah
 
-10. Add a colton property to the value of the terah children property and assign it 
-    the value of an object with the property name with a value of "Colton".
+10. Add a colton property to the value of the terah children property and assign it the value of an object with the property name with a value of "Colton".
+// pseudocode
+// add value of "Colton" to children property of object terah
 
 11. Add a children property to adam and assign it the value of terah children.
-
+// pseudocode
+// add children property to object adam
+// set children property to the value of terah children for object adam
 
 */
 
 // __________________________________________
 // Write your code below.
+var adam = {
+  name: "Adam",
+  spouse: terah,
+  children: terah.children
+};
 
+var terah = {
+  spouse: adam,
+  weight: 125,
+  eyeColor: undefined,
+  children: {carson: {name: "Carson"}, carter: {name: "Carter"}, colton: {name: "Colton"}}
+};
 
-
-
-
+adam.spouse = terah;
+adam.children = terah.children;
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
+// Like the last challenge, I feel really enjoyed this exercise. In this activity, I was able to better understand the point of pseudocode (and I think I definitely wrote some wrong). After running the tests, I was able to see why my thought process was off and how I could correct it. I ended up correcting in the code, but not the pseudocode, I feel like this is a more honest reflection of my work. All things considering, I think this was a perfectly appropriate challenge, that really got me thinking without having me completely stumped. I'm looking forward to more challenges like this one in the future!
 // 
 // 
 // 
